@@ -72,7 +72,7 @@ validate_attribute_contains_list = func(type, attribute, required_values) {
             "that is computed.")
       # If you want computed values to cause the policy to fail,
       # uncomment the next line.
-      # validated = false
+      validated = false
     } else {
       # Validate that the attribute is a list or a map
       if length(r.applied[attribute]) else 0 > 0 and
