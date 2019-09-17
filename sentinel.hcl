@@ -7,5 +7,5 @@ policy "restrict-app-service-to-https" {
 }
 
 policy "enforce-mandatory-tags" {
-    enforcement_level = "hard-mandatory"
+    enforcement_level = "soft-mandatory"
 }
